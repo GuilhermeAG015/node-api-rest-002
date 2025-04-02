@@ -2,8 +2,10 @@
 
 node version >= 22.14
 
-# npm i
+#
+
+npm i
 
 &&
 
-# npm run dev
+npm run dev
