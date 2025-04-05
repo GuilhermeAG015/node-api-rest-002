@@ -17,3 +17,6 @@ app
   .then(() => {
     console.info('HTTP Server Running!')
   })
+  .catch((e) => {
+    console.error('HTTP Server is not running!', e)
+  })
