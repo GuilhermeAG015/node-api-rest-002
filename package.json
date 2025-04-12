@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src --ext .ts --fix",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Guilherme Alexandre Grilo",
@@ -16,7 +17,8 @@
     "@types/node": "^22.13.13",
     "eslint": "^8.57.1",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.2",
