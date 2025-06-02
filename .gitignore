@@ -1,5 +1,14 @@
+# Dependencies
 node_modules
-db/app.db
+yarn-lock
+
+# Database
+db/*.db
+
+
+#Environment
 .env
 .env.test
-yarn-lock
+
+# Build
+build
