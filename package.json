@@ -2,6 +2,9 @@
   "name": "node-api-rest-002",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
@@ -13,6 +16,15 @@
   "author": "Guilherme Alexandre Grilo",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.2",
+    "knex": "^3.1.0",
+    "pg": "^8.16.0",
+    "zod": "^3.24.2"
+  },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.13.13",
@@ -22,15 +34,7 @@
     "tsup": "^8.5.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
-    "vitest": "^3.1.1"
-  },
-  "dependencies": {
-    "@fastify/cookie": "^11.0.2",
-    "date-fns": "^4.1.0",
-    "dotenv": "^16.4.7",
-    "fastify": "^5.2.2",
-    "knex": "^3.1.0",
     "sqlite3": "^5.1.7",
-    "zod": "^3.24.2"
+    "vitest": "^3.1.1"
   }
 }
